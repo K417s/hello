@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
+import android.widget.TextView
 
 class MainActivity() : AppCompatActivity(), Parcelable {
     constructor(parcel: Parcel) : this() {
@@ -13,8 +14,8 @@ class MainActivity() : AppCompatActivity(), Parcelable {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var txv:TextView = findViewById<TextView>(R.id.txv)
-        txv.text = "Hello tcyang"
+        var txv: TextView = findViewById<TextView>(R.id.txv)
+        txv.text = """Hello bo"""
 
     }
 
