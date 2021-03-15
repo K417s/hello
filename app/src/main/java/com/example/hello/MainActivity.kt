@@ -18,7 +18,7 @@ class MainActivity() : AppCompatActivity(), Parcelable {
         //txv.text = "Hello bo"
         //TestDEV()
         //TestMaster()
-        txv.setText("hello bobo i am sucker");
+        txv.setText("hello bobo i am sucker...");
 
 
     }
