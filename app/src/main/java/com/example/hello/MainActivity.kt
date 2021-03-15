@@ -14,8 +14,12 @@ class MainActivity() : AppCompatActivity(), Parcelable {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var txv: TextView = findViewById<TextView>(R.id.txv)
-        txv.text = """Hello bo"""
+        var txv:TextView = findViewById<TextView>(R.id.txv)
+        //txv.text = "Hello bo"
+        //TestDEV()
+        //TestMaster()
+        txv.setText("hello bo");
+
 
     }
 
